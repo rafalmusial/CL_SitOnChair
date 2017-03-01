@@ -177,3 +177,23 @@ section.slider-wrap::after{
     visibility: hidden;
     clear: both;
 }
+%divy {
+  width: 33%;
+  border: 1px solid black;
+  height: 225px;
+  float: left;
+}
+
+#box1 {
+  @extend %divy;
+  background-image: url('../img/box1_img.jpg');
+}
+#box2 {
+  @extend %divy;
+  background-image: url('../img/box2_img.jpg');
+}
+#box3 {
+  @extend %divy;
+  color:  red;
+
+}
