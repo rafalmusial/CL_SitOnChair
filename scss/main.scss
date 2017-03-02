@@ -178,10 +178,12 @@ section.slider-wrap::after{
     clear: both;
 }
 %divy {
-  width: 33%;
-  border: 1px solid black;
+  width: 31%;
+  border: 1px solid rgba(209,209,209,1);
+  border-radius: 3px;
   height: 225px;
   float: left;
+  margin: 10px;
 }
 
 #box1 {
@@ -194,6 +196,33 @@ section.slider-wrap::after{
 }
 #box3 {
   @extend %divy;
-  color:  red;
+  color:  darkgrey;
+  padding: 20px;
+  text-align: left;
+}
+#box3::after{
+    content:"";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.marker {
+  width: 100%;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  display: inline-block;
+  border-bottom: 4px solid #24baa0 ;
+  background-color: rgba(255,255,255,0.4);
+}
+#box1 .marker  {
+position: relative;
+top: 150px;
+}
 
+#box2 .marker  {
+position: relative;
+top: 150px;
 }
