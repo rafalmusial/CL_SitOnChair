@@ -56,10 +56,11 @@ header nav ul.menu li{
 }
 
 header nav ul.menu li ul{
-    display: block;
+    display: none;
     position: absolute;
     background: #000;
     top: 40px;
+    left: 1px;
 }
 
 header nav ul.menu ul li{
@@ -78,10 +79,6 @@ header nav ul.menu li ul::before{
     transform: rotate(45deg);
     left: 35%;
 }
-
-
-
-
 
 
 
@@ -177,8 +174,9 @@ section.slider-wrap::after{
     visibility: hidden;
     clear: both;
 }
+
 %divy {
-  width: 31%;
+  width: 30%;
   border: 1px solid rgba(209,209,209,1);
   border-radius: 3px;
   height: 225px;
@@ -218,11 +216,14 @@ section.slider-wrap::after{
   background-color: rgba(255,255,255,0.4);
 }
 #box1 .marker  {
-position: relative;
-top: 150px;
+  position: relative;
+  top: 150px;
 }
 
 #box2 .marker  {
-position: relative;
-top: 150px;
+  position: relative;
+  top: 150px;
+}
+.showTitle {
+  display: none;
 }
