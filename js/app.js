@@ -5,10 +5,10 @@ var subMenuButton = document.querySelector('ul.menu li ul');
 
 console.log(menuButton);
 console.log(subMenuButton);
-menuButton.addEventListener('mouseover', function() {
+menuButton.addEventListener('mouseover', function(event) {
   subMenuButton.style.display = "inline-block";
 });
-menuButton.addEventListener('mouseout', function() {
+menuButton.addEventListener('mouseout', function(event) {
   subMenuButton.style.display = "none";
 });
 
@@ -28,4 +28,6 @@ product2.addEventListener('mouseover', function() {
 product2.addEventListener('mouseout', function() {
     product2.firstElementChild.classList.remove('showTitle');
 });
+//Zdaanie 3
+
 })
