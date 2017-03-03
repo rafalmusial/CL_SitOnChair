@@ -107,7 +107,6 @@ section.slider-wrap ul li img{
     width: 40%;
     float:left;
 }
-
 section.slider-wrap ul li div{
     width: 30%;
     float: right;
@@ -226,4 +225,7 @@ section.slider-wrap::after{
 }
 .showTitle {
   display: none;
+}
+.visable {
+  display: inline;
 }
