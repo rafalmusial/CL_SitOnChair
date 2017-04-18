@@ -1,3 +1,6 @@
 /_src/
 /template/
 /node_modules/
+/img/
+/scss/
+gulpfile.js
